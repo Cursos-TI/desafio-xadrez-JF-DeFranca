@@ -4,18 +4,72 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de movimentação das peças de xadrez.
 // O objetivo é utilizar estruturas de repetição e funções para determinar os limites de movimentação dentro do jogo.
 
+
+  // Nível Novato - Movimentação das Peças
+
+
 int main() {
-    // Nível Novato - Movimentação das Peças
-    // Sugestão: Declare variáveis constantes para representar o número de casas que cada peça pode se mover.
+  
+    int i;
+    int movimentoBispo = 5;
+    int movimentoTorre = 5;
+    int movimentoRainha = 8;
 
-    // Implementação de Movimentação do Bispo
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação do Bispo em diagonal.
 
-    // Implementação de Movimentação da Torre
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Torre para a direita.
+     // MOVIMENTO DO BISPO 5 CASAS NA DIAGONAL SUPERIOR DIREITA (CIMA + DIREITA)
+     printf ("Movimentando o Bispo: \n");
+        for ( i = 0; i < movimentoBispo; i++) {
 
-    // Implementação de Movimentação da Rainha
-    // Sugestão: Utilize uma estrutura de repetição para simular a movimentação da Rainha para a esquerda.
+            printf ("Cima\n");
+            printf ("Direita\n");
+        }
+
+
+
+     // MOVIMENTO DA TORRE 5 CASAS PARA DIREITA
+     printf ("Movimentando a Torre: \n");
+       for ( i = 0; i < movimentoTorre; i++) {
+
+        printf ("Direita\n");
+    }
+    
+
+
+
+
+     // MOVIMENTO DA RAINHA 8 CASAS PARA ESQUERDA
+     printf ("Movimentando a Rainha: \n");
+        for ( i = 0; i < movimentoRainha; i++) {
+
+            printf ("Esquerda\n");
+        
+        }
+        
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     // Nível Aventureiro - Movimentação do Cavalo
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
