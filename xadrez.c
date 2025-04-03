@@ -14,7 +14,7 @@ int main() {
     int movimentoBispo = 5;
     int movimentoTorre = 5;
     int movimentoRainha = 8;
-
+    int movimentoCavalo = 1;
 
      // MOVIMENTO DO BISPO 5 CASAS NA DIAGONAL SUPERIOR DIREITA (CIMA + DIREITA)
      printf ("Movimentando o Bispo: \n");
@@ -28,50 +28,39 @@ int main() {
 
      // MOVIMENTO DA TORRE 5 CASAS PARA DIREITA
      printf ("Movimentando a Torre: \n");
-       for ( i = 0; i < movimentoTorre; i++) {
+        for ( i = 0; i < movimentoTorre; i++) {
 
-        printf ("Direita\n");
-    }
+           printf ("Direita\n");
+        }
     
-
-
-
-
      // MOVIMENTO DA RAINHA 8 CASAS PARA ESQUERDA
      printf ("Movimentando a Rainha: \n");
         for ( i = 0; i < movimentoRainha; i++) {
 
             printf ("Esquerda\n");
         
+        }   
+
+
+      // Nível Aventureiro - Movimentação do Cavalo
+     
+      printf ("Movimentando o Cavalo: \n");
+        while (movimentoCavalo--){
+            for (i = 0; i < 2; i++) {
+                printf("Cima\n");
+            }
+             
+            printf("Direita\n");
+
         }
-        
-
-        
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    // Nível Aventureiro - Movimentação do Cavalo
+ 
+ 
+ 
+ 
+ 
     // Sugestão: Utilize loops aninhados para simular a movimentação do Cavalo em L.
     // Um loop pode representar a movimentação horizontal e outro vertical.
 
